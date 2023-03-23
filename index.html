@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wandering Eyes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Wandering Eyes</h1>
+  </header>
+  <div class="buttonContainer">
+    <button id="startBtn">Start</button>
+    <button id="stopBtn">Stop</button>
+    <select id="directionSelect">
+      <option value="horizontal">Horizontal</option>
+      <option value="cross">Cross</option>
+    </select>
+    <select id="colorSelect">
+     <label for="colorSelect">Color: </label>
+      <option value="red">Red</option>
+      <option value="blue">Blue</option>
+      <option value="green">Green</option>
+      <option value="yellow">Yellow</option>
+      <option value="purple">Purple</option>
+    </select>
+    <button id="increaseSpeedBtn">Increase Speed</button>
+    <button id="decreaseSpeedBtn">Decrease Speed</button>
+    <button id="increaseSizeBtn">Increase Size</button>
+    <button id="decreaseSizeBtn">Decrease Size</button>
+  
+    
+  </div>
+  <main>
+    <div class="container">
+      <canvas id="emdrCanvas"></canvas>
+    </div>
+  </main>
+  <script src="scripts.js"></script>
+</body>
+</html>
